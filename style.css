@@ -2,6 +2,7 @@
     padding: 0%;
     margin: 0%;
     font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
 }
 
 .common-btn{
@@ -12,10 +13,12 @@
     padding: 13px 28px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 
 
 .outline-btn {
+
   background-color: transparent;
   color:#1D4ED8;
   border: 2px solid #1D4ED8;
@@ -23,6 +26,7 @@
   font-size: 16px;
   border-radius: 5px;
   cursor: pointer;
+  text-decoration: none;
 }
 
 /*Nav ber start*/
@@ -152,6 +156,149 @@ ul a{
   margin: 0;
   line-height: 1.4;
 }
+
+
+
+
+
+
+.Subscription-section{
+    display: flex;
+    justify-content: center; 
+    gap: 24px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    max-width: 1100px;       
+    margin-left: auto;       
+    margin-right: auto;    
+}
+.subs-card {
+    background: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    padding: 30px;
+    width: 300px;
+    color: #333333;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+
+.type {
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #888888;
+}
+
+
+
+
+.pp{
+    color: #888888;
+    font-size: 14px;
+}
+
+
+.subs-card ul {
+    padding-left: 15px;
+    line-height: 2;
+    font-size: 14px;
+    margin: 25px 0 30px 0;
+    display: block;      
+    padding-left: 20px;   
+    margin: 25px 0 30px 0;
+    list-style-type: disc;
+}
+
+.subs-card li {
+    display: list-item;   
+    margin-bottom: 12px;   
+    text-align: left;    
+}
+
+/*only for pro subscription*/
+
+.subs-card.pro {
+    background-color: #0D1B2A;
+    border: none;
+}
+
+.subs-card.pro h2,
+.subs-card.pro ul li {
+    color: #FFFFFF;
+}
+
+
+.subs-card.featured .type {
+    color: #93C5FD;
+}
+
+
+.subs-card.featured .pp {
+    color: #A5F3FC;
+}
+
+.pro-btn{
+    width: 100%;
+    box-sizing: border-box;
+    display: block; 
+    text-align: center;
+}
+
+/* FAQ Section Styles */
+.faq-section {
+    padding: 80px 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.faq-section h2 {
+    font-size: 32px;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+.faq-title {
+    color: #575757;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.faq-container {
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    background: #F8F9FB; 
+    border-radius: 8px;
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+}
+
+.faq-question h3 {
+    font-size: 18px;
+    color: #0D1B2A;
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+.faq-answer {
+    font-size: 15px;
+    color: #575757;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+
+
+
+
 
 
 
