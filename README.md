@@ -1,0 +1,2 @@
+Firstlt I was give the UI design of website and I was write a prompt that was "Please suggest me what can be given in the missing space of this website."
+After that Ai suggest some idea and I was chose FQA idea and make it my aqueir knowlwdge and i was taking some help of AI.Like as how to make it UI design and some error solving etc.
